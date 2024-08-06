@@ -53,16 +53,19 @@ public class Main {
         }
         System.out.println(Arrays.toString(lenArrayFilledInitiaValue(5, 5)));
     }
+
     // 1.
     public static void printThreeWords() {
         System.out.println("Orange\nBanana\nApple");
     }
+
     // 2.
     public static void checkSumSign() {
         int a = -1, b = 1;
         if (a + b >= 0) System.out.println("Сумма положительная");
         else System.out.println("Сумма отрицательная");
     }
+
     // 3.
     public static void printColor() {
         int value = 0;
@@ -70,29 +73,34 @@ public class Main {
         else if (value <= 100) System.out.println("Желтый");
         else System.out.println("Зеленыи");
     }
+
     // 4.
     public static void compareNumbers() {
         int a = 0, b = 0;
         if (a >= b) System.out.println("a >= b");
         else System.out.println("a < b");
     }
+
     // 5.
     public static boolean sumLimited(int a, int b) {
         int sum = a + b;
         if (sum >= 10 && sum <= 20) return true;
         else return false;
     }
+
     // 6.
     public static void positiveOrNegative(int a) {
         System.out.print("Число " + a);
         if (a >= 0) System.out.println(" положительное");
         else System.out.println(" отрицательное");
     }
+
     // 7.
     public static boolean ifNegativeOrPositive(int a) {
         if (a < 0) return true;
         else return false;
     }
+
     // 8.
     public static void outputLinesByNumber(String text, int n) {
         while (n != 0) {
@@ -100,11 +108,13 @@ public class Main {
             n--;
         }
     }
+
     // 9.
     public static boolean ifIntercalaryYear(int year) {
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) return true;
         else return false;
     }
+
     // 14.
     public static int[] lenArrayFilledInitiaValue(int len, int initialValue) {
         int[] arr = new int[len];
